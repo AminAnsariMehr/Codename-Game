@@ -1,6 +1,12 @@
-$font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-$font-weight: 400;
+$bgColor-redTeam: radial-gradient(
+  circle,
+  rgb(231, 102, 60) 0%,
+  rgb(72, 12, 2) 100%
+);
+$bgColor-blueTeam: radial-gradient(
+  circle,
+  rgb(91, 174, 215) 0%,
+  rgb(5, 60, 84) 100%
+);
 
-$color-scheme: light dark;
-$color: rgba(255, 255, 255, 0.87);
-$background-color: #242424;
+$fontFamily: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
